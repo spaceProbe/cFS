@@ -27,6 +27,7 @@ script:
   - export CC=/usr/bin/gcc-6
   - export CXX=/usr/bin/g++-6
   - export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib32/
+  - ls /usr/lib32/
   # Check versions of gcc, g++ and cmake
   - gcc -v && g++ -v && cmake --version
   # Run your build commands next
